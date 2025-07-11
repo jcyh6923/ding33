@@ -13,7 +13,8 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://825081dc-1e7e-466a-e330-56f6e91553fb@8.217.9.100:58201?type=tcp&security=reality&sni=www.yahoo.com&pbk=zeWapROElXuGwUzkf7WC2PJ1AYKcENKhOvi15I6Wo0A&flow=&sid=ce5533b1&fp=chrome#hk%E9%98%BF%E9%87%8C%E4%BA%91
+vless://11e20cfe-30c5-4b8f-aef6-c4c39ed95bc3@74.48.82.165:50576?security=reality&encryption=none&pbk=RLRMDsHJ5DREcfG_oNXRxghl1jT2aPCJSRNpbe_X9G0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=e2011d86#%E7%BE%8E%E5%9B%BDCC
+vless://156420a3-5e88-488d-82c6-2019878a4965@[2001:41d0:a:5b18:be24:11ff:fe6c:9174]:10213?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&fp=chrome&pbk=Wh6x06J4PvCFxLD8NpTvdDcMXIEDStRqM6CGVvt7bH4&type=tcp&headerType=none#%E6%B3%95%E9%B8%A1
 `
 
 let urls = [];
