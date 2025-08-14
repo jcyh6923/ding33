@@ -13,7 +13,7 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://11e20cfe-30c5-4b8f-aef6-c4c39ed95bc3@74.48.82.165:50576?security=reality&encryption=none&pbk=RLRMDsHJ5DREcfG_oNXRxghl1jT2aPCJSRNpbe_X9G0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=e2011d86#%E7%BE%8E%E5%9B%BDCC
+vless://03ac5300-9ddd-43de-a1ae-a54e53d0a4c1@74.48.82.165:33537?encryption=none&flow=xtls-rprx-vision&security=reality&sni=aws.amazon.com&fp=chrome&pbk=ypiqqm4J345RXkvkeVRGbE8M-Fs9dS0KuJqdn-kdYQU&type=tcp&headerType=none#%E7%BE%8E%E5%9B%BDdc2
 vless://156420a3-5e88-488d-82c6-2019878a4965@[2001:41d0:a:5b18:be24:11ff:fe6c:9174]:10213?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amazon.com&fp=chrome&pbk=Wh6x06J4PvCFxLD8NpTvdDcMXIEDStRqM6CGVvt7bH4&type=tcp&headerType=none#%E6%B3%95%E9%B8%A1
 `
 
@@ -832,3 +832,4 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 		});
 	}
 }
+
