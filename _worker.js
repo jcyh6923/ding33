@@ -13,7 +13,8 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://cfxr.eu.org/getSub
+vless://0e253890-11d2-492f-8f1a-ed1fe6ddf03b@74.48.82.165:39113?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.iij.ad.jp&fp=firefox&pbk=LZ79AEpGKUKXiAXI5IjOouMpUVJ7giqGji3FyEtezh4&type=tcp&headerType=none#%E7%BE%8E%E5%9B%BDdc2
+vless://25d61bf5-2d2d-43d5-851c-6e0cdaa2637c@202.61.230.41:35287?encryption=none&flow=xtls-rprx-vision&security=reality&sni=aws.amazon.com&fp=chrome&pbk=O15NlZYQgCnCQUixX4rlz3qirMsI5_Hlrwkx7G9v9UA&type=tcp&headerType=none#%E5%BE%B7%E5%9B%BD%E6%9C%BA%E5%99%A8
 `;
 
 let urls = [];
@@ -825,4 +826,5 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 			headers: { "Content-Type": "text/plain;charset=utf-8" }
 		});
 	}
+
 }
